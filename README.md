@@ -1,2 +1,3 @@
-# 12carbon
-Postfix notation calculator using Angular
+# 12Carbon
+
+Postfix notation calculator using Ionic 2

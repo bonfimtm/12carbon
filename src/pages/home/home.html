@@ -1,0 +1,34 @@
+<ion-content (keydown)="onKey($event)">
+
+<tw-carbon>
+
+  <tw-expression [expression]="expression"></tw-expression>
+  <tw-result [result]="result"></tw-result>
+
+  <tw-button op="AC"></tw-button>
+  <tw-button op="C"></tw-button>
+  <tw-button op="%"></tw-button>
+  <tw-button op="/" operator></tw-button>
+
+  <tw-button op="7"></tw-button>
+  <tw-button op="8"></tw-button>
+  <tw-button op="9"></tw-button>
+  <tw-button op="*" operator></tw-button>
+
+  <tw-button op="4"></tw-button>
+  <tw-button op="5"></tw-button>
+  <tw-button op="6"></tw-button>
+  <tw-button op="-" operator></tw-button>
+
+  <tw-button op="1"></tw-button>
+  <tw-button op="2"></tw-button>
+  <tw-button op="3"></tw-button>
+  <tw-button op="+" operator></tw-button>
+
+  <tw-button op="0"></tw-button>
+  <tw-button op=","></tw-button>
+  <tw-button op="_"></tw-button>
+  <tw-button op="=" operator></tw-button>
+</tw-carbon>
+
+</ion-content>
