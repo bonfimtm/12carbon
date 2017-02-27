@@ -44,7 +44,7 @@ export class CalcService {
       }
     }
     console.log(operandStack);
-    return operandStack.pop().toString();
+    return operandStack.length ? operandStack.pop().toString() : ' ';
   }
 
 }

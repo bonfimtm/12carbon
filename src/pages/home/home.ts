@@ -36,7 +36,7 @@ export class HomePage {
         this.result = ' ';
         break;
       case 'C':
-        this.expression = this.expression.substring(0, this.expression.length - 1);
+        this.expression = this.expression.length > 1 ? this.expression.substring(0, this.expression.length - 1) : ' ';
         break;
       case '=':
         this.result = this.calcService.eval(this.scannerService.tokenize(this.expression));
